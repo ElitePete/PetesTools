@@ -2,9 +2,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* changed this */
     align-items: center;
-    height: 100vh;
+    flex-direction: column; /* added this */
+    height: 60vh;
     margin: 0;
 }
 
@@ -52,4 +53,9 @@ margin-bottom: 20px;
 .returnButton a {
     text-decoration: none;
     color: white;
+}
+.buyRamen {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
 }

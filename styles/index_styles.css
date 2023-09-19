@@ -50,3 +50,9 @@ nav a {
 nav a:hover {
     background-color: #45a049;
 }
+
+.buyRamen {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
