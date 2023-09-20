@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #464343;
     display: flex;
     justify-content: space-between; /* changed this */
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .calculator {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,4 +58,23 @@ margin-bottom: 20px;
     display: block;
     margin: 20px auto;
     text-align: center;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+.socialMedia a i {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.callToAction {
+    text-shadow: 0 0 5px #45a049, 0 0 10px #45a049, 0 0 15px #45a049;
+    color: white;
 }
